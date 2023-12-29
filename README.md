@@ -45,10 +45,19 @@ Quartus prime
    - Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 
 ## Program:
-
-![Screenshot 2023-12-29 223247](https://github.com/MathiyazhaganDhanapal/Experiment--02-Implementation-of-combinational-logic-/assets/145981115/9ac0302a-11bc-49bd-871d-502244e36b3c)
-
-
+~~~~
+module combinationalcircuit(A,B,C,D,F1);
+input A,B,C,D;
+output F1;
+wire x1,x2,x3,x4,x5;
+assign x1=(~A)&(~B)&(~C)&(~D);
+assign x2=(A)&(~C)&(~D);
+assign x3=(~B)&(C)&(~D);
+assign x4=(~A)&(B)&(C)&(D);
+assign x5=(B)&(~C)&(D);
+assign F1=x1|x2|x3|x4|x5;
+endmodule
+~~~~
 
 ## RTL realization
 
