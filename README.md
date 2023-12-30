@@ -1,4 +1,4 @@
-# Name: D.Mathiyazhagan.
+# Name: D.MATHIYAZHAGAN.
 # Registration no: 23013685
 
 ## Ex:02 Implementation of combinational logic
